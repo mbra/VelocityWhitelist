@@ -35,7 +35,7 @@ public class VelocityWhitelist {
         this.triggerFile = new File(datadir.toFile(), "whitelist.enabled");
         this.logger = logger;
         logger.info("Registering command {}", "vwhitelist");
-        commandManager.register(new WhitelistCommand(this, logger), "vwhitelistthub releases");
+        commandManager.register(new WhitelistCommand(this, logger), "vwhitelist");
     }
 
     @Subscribe
