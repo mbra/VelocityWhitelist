@@ -6,7 +6,7 @@
 
     <groupId>velocitywhitelist</groupId>
     <artifactId>velocitywhitelist</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>VelocityWhitelist</name>
